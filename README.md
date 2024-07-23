@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @anshumgoyal
 - 👀 I’m interested in changing the world
-- 🌱 I’m currently learning philosophy
+- 🌱 I’m currently learning Python, neural networks and AI.
 - 💞️ I’m looking to collaborate on my project on learning
 - 📫 Reach me @anshumgoyal on twitter
 
