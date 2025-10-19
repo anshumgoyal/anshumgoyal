@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jules' Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+</head>
+<body>
+    <div id="hud">
+        <span id="hud-username">Player</span>: <span id="hud-score">0</span>
+    </div>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#case-studies">Case Studies</a></li>
+                <li><a href="#leadership">Leadership Philosophy</a></li>
+                <li><a href="#blog">Blog/Insights</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Home</h1>
+            <h2 id="user-greeting"></h2>
+            <button id="tutorial-btn">How does this work?</button>
+        </section>
+        <section id="about">
+            <h1>About Me</h1>
+            <p>I am a passionate product manager with a knack for creating engaging and user-centric digital experiences. I thrive on solving complex problems and turning innovative ideas into reality. This portfolio is a showcase of my journey, my process, and the lessons I've learned along the way.</p>
+        </section>
+        <section id="projects">
+            <h1>Projects</h1>
+            <div class="project-links">
+                <a href="#" class="project-link">Project: WorthMyWardrobe</a>
+                <a href="#" class="project-link">Project: Agile Coach Dashboard</a>
+                <a href="#" class="project-link">Project: HyperAgility Suite</a>
+            </div>
+            <div id="clicker-game">
+                <p>Enjoy a mini-game!</p>
+                <button id="clicker-btn">Click me!</button>
+                <p>Clicks: <span id="clicker-score">0</span></p>
+            </div>
+        </section>
+        <section id="case-studies">
+            <h1>Case Studies</h1>
+            <p>Dive deep into the stories behind my projects. Here I break down the problem, my approach, the impact we made, and what I learned. Each case study is a testament to my commitment to data-driven decisions and collaborative success.</p>
+        </section>
+        <section id="leadership">
+            <h1>Leadership Philosophy</h1>
+            <p>I believe in empowering teams to do their best work. My leadership style is built on a foundation of trust, transparency, and a shared passion for the product. I strive to create an environment where creativity and innovation can flourish.</p>
+        </section>
+        <section id="blog">
+            <h1>Blog/Insights</h1>
+            <p>Here are some of my thoughts on product management, design, technology, and the future of digital experiences. I enjoy sharing my insights and sparking conversations with fellow product enthusiasts.</p>
+        </section>
+        <section id="contact">
+            <h1>Contact</h1>
+            <p>Let's connect! Whether you want to discuss a project, share an idea, or just say hello, I'd love to hear from you. You can find me on [LinkedIn] or send me an email at [your.email@example.com].</p>
+        </section>
+    </main>
+
+    <div id="tutorial-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h2>How to Score Points</h2>
+            <p>Welcome to my interactive portfolio! You can earn points by exploring the site:</p>
+            <ul>
+                <li>Scroll through a section: +10 points</li>
+                <li>Click on a project link: +20 points</li>
+                <li>Find hidden easter eggs: +50 points</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
